@@ -1,5 +1,7 @@
-var firstName = 'Michael';
-var lastName = 'Jackson';
-var year = 1958;
+const name = 'guolei';
+const age = '24';
+const add = (a,b)=>a+b;
+const add2 = (...x)=>{return x[0]+x[1]}
 
-export {firstName, lastName, year};
+export {name,age,add,add2}
+
